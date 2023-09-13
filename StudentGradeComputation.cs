@@ -10,7 +10,7 @@
 
         public double CalculatePrelimGrade()
         {
-            Console.WriteLine("Testing Hello World");
+
             return (((studentGradeComputationModel.prelimQuiz      / 60) * 0.4) * 100) 
                  + (((studentGradeComputationModel.prelimMajorExam / 50) * 0.6) * 100);
         }
